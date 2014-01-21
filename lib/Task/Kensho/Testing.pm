@@ -4,8 +4,8 @@ package Task::Kensho::Testing;
 BEGIN {
   $Task::Kensho::Testing::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-44-gbbdd462
-$Task::Kensho::Testing::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-18-g98bdb85
+$Task::Kensho::Testing::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Testing
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Testing - Testing
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
