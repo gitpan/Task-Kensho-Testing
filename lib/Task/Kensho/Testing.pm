@@ -4,9 +4,9 @@ package Task::Kensho::Testing;
 BEGIN {
   $Task::Kensho::Testing::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34001-TRIAL-18-g98bdb85
-$Task::Kensho::Testing::VERSION = '0.34002'; # TRIAL
-# ABSTRACT: Testing
+# git description: v0.34002-TRIAL-23-g1717f67
+$Task::Kensho::Testing::VERSION = '0.34003'; # TRIAL
+# ABSTRACT: A Glimpse at an Enlightened Perl: Testing
 
 __END__
 
@@ -16,11 +16,11 @@ __END__
 
 =head1 NAME
 
-Task::Kensho::Testing - Testing
+Task::Kensho::Testing - A Glimpse at an Enlightened Perl: Testing
 
 =head1 VERSION
 
-version 0.34002
+version 0.34003
 
 =head1 SYNOPSIS
 
@@ -38,82 +38,94 @@ Kenshō (見性) (C. Wu) is a Japanese term for enlightenment
 experiences - most commonly used within the confines of Zen
 Buddhism - literally meaning "seeing one's nature"[1] or "true
 self."[2] It generally "refers to the realization of nonduality of
+subject and object."[3]
 
 =back
 
-Task::Kensho is a first cut at building a list of recommended modules
+L<Task::Kensho> is a first cut at building a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
 
-The plan is for Task::Kensho to be a rough testing ground for ideas that
+The plan is for L<Task::Kensho> to be a rough testing ground for ideas that
 go into among other things the Enlightened Perl Organisation Extended
 Core (EPO-EC).
 
-The modules that are bundled by Task::Kensho are broken down into
+The modules that are bundled by L<Task::Kensho> are broken down into
 several categories and are still being considered. They are all taken
 from various top 100 most used perl modules lists and from discussions
 with various subject matter experts in the Perl Community. That said,
 this bundle does I<not> follow the guidelines established for the EPO-EC
 for peer review via industry advisers.
 
-Starting in 2011, Task::Kensho split its sub-groups of modules into
-individually-installable tasks. These individual tasks will always install all
-their modules by default. This facilitates the ease and simplicity the
-distribution aims to achieve. Each Task::Kensho sub-task is listed at the
+Starting in 2011, L<Task::Kensho> split its sub-groups of modules into
+individually-installable tasks.  Each L<Task::Kensho> sub-task is listed at the
 beginning of its section in this documentation.
 
-=head2 Testing: Task::Kensho::Testing
+When installing L<Task::Kensho> itself, you will be asked to install each
+sub-task in turn, or you can install individual tasks separately. These
+individual tasks will always install all their modules by default. This
+facilitates the ease and simplicity the distribution aims to achieve.
 
-=over 4
+=head1 RECOMMENDED MODULES
 
-=item L<Devel::Cover>
+=head2 L<Task::Kensho::Testing>: Testing
+
+=head3 L<Devel::Cover>
 
 Code coverage metrics for Perl
 
-=item L<Test::Deep>
+=head3 L<Test::Deep>
 
 Test deep data structures
 
-=item L<Test::Fatal>
+=head3 L<Test::Fatal>
 
 Test exception-based code
 
-=item L<Test::Memory::Cycle>
+=head3 L<Test::Memory::Cycle>
 
 Check for memory leaks and circular memory references
 
-=item L<Test::Most>
+=head3 L<Test::Most>
 
 Most commonly needed test functions and features.
 
-=item L<Test::NoWarnings>
+=head3 L<Test::NoWarnings>
 
 Ensure that no (unexpected) warnings occur during testing
 
-=item L<Test::Pod>
+=head3 L<Test::Pod>
 
 Check for POD errors in files
 
-=item L<Test::Pod::Coverage>
+=head3 L<Test::Pod::Coverage>
 
 Check for pod coverage in your distribution.
 
-=item L<Test::Requires>
+=head3 L<Test::Requires>
 
 Make running a test conditional on a particular module being installed
 
-=item L<Test::Simple>
+=head3 L<Test::Simple>
 
 Basic utilities for writing tests.
 
-=back
+=head1 INSTALLING
+
+Since version 0.34, L<Task::Kensho> has made use of the C<optional_features> field
+in distribution metadata. This allows CPAN clients to interact with you
+regarding which modules you wish to install.
+
+The C<cpanm> client requires interactive mode to be enabled for this to work:
+
+    cpanm --interactive Task-Kensho
 
 =head1 RELEASE SCHEDULE
 
-Starting with release 0.18 Task::Kensho was moved to a monthly release
+Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
 cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in Task::Kensho.
+to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 
@@ -124,8 +136,7 @@ better for you. This is however a path to good perl practice, and a
 starting place on the road to Enlightened Perl programming.
 
 Please report any bugs or feature requests to
-C<bug-task-kensho@rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org>.
+L<https://github.com/EnlightenedPerlOrganisation/task-kensho/issues>.
 
 =head1 SEE ALSO
 
