@@ -4,7 +4,7 @@ Task::Kensho::Testing - A Glimpse at an Enlightened Perl: Testing
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
