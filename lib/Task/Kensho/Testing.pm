@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Testing;
-# git description: v0.36-32-ge84ae83
-$Task::Kensho::Testing::VERSION = '0.37';
+# git description: v0.37-34-gd74d408
+$Task::Kensho::Testing::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Testing
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::Testing - A Glimpse at an Enlightened Perl: Testing
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
